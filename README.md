@@ -9,7 +9,7 @@ Setup
 How to use
 ------------------------------
 
->$ node ./index.js gg
+>$ npm start gg
 
 ```
 t1fz8dRHJh2AcLAUHFuFhgjS1KGwYizvuA5
