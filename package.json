@@ -1,28 +1,27 @@
 {
-  "name": "equihashvanitygenerator",
-  "version": "1.0.0",
-  "description": "A vanity address generator for cryptocurrencies like ZClassic.",
-  "main": "index.js",
-  "dependencies": {
-    "zcash-bitcore-lib": "*"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/aayanl/EquihashVanityGenerator.git"
-  },
-  "keywords": [
-    "vanity",
-    "zcash",
-    "zclassic"
-  ],
-  "author": "aayanl",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/aayanl/EquihashVanityGenerator/issues"
-  },
-  "homepage": "https://github.com/aayanl/EquihashVanityGenerator#readme"
+    "name": "equihashvanitygenerator",
+    "version": "1.0.1",
+    "description": "A vanity address generator for cryptocurrencies like ZClassic.",
+    "keywords": [
+        "vanity",
+		"zcash",
+		"zclassic",
+        "equihash"
+    ],
+    "homepage": "https://github.com/GRinvest/EquihashVanityGenerator",
+    "bugs": {
+        "url": "https://github.com/GRinvest/EquihashVanityGenerator/issues"
+    },
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/GRinvest/EquihashVanityGenerator.git"
+    },
+    "dependencies": {
+        "zcash-bitcore-lib": "git+https://github.com/bitmex/zcash-bitcore-lib.git"
+    },
+    "scripts": {
+		"install": "LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$PWD/zcash-bitcore-lib/",
+         "start": "LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$PWD/node ./index.js"
+    }
 }
