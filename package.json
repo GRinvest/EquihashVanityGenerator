@@ -18,7 +18,7 @@
         "url": "https://github.com/GRinvest/EquihashVanityGenerator.git"
     },
     "dependencies": {
-        "zcash-bitcore-lib": "git+https://github.com/bitmex/zcash-bitcore-lib.git"
+        "node_modules/zcash-bitcore-lib": "git+https://github.com/bitmex/zcash-bitcore-lib.git"
     },
     "scripts": {
 		"install": "LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$PWD/node_modules/zcash-bitcore-lib/",
