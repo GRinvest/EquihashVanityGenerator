@@ -18,8 +18,8 @@
         "url": "https://github.com/GRinvest/EquihashVanityGenerator.git"
     },
     "dependencies": {
-		"os": "*"
-		"cluster": "*"
+		"os": "*",
+		"cluster": "*",
         "zcash-bitcore-lib": "git+https://github.com/GRinvest/zcash-bitcore-lib.git"
     },
     "scripts": {
